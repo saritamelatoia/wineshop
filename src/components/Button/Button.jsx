@@ -14,7 +14,6 @@ const ButtonStyled = styled.button`
 
     &:hover {
     background-color: #0056b3; /* Cambia el color de fondo al pasar el cursor */
-    /* Puedes añadir más estilos aquí para personalizar el efecto */
   }
 `;
 

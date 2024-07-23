@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 export const HeroContainerStyled = styled.div`
     display: flex;
-    background-color: red;
     justify-content: space-around;
     align-items: center;
     max-width: 1400px;
