@@ -1,20 +1,18 @@
-import React from 'react';
-import Navbar from './components/NavBar/Navbar';
-import Hero from './components/Hero/Hero';
-import Footer from './components/Footer/Footer';
-import GlobalStyles from './styles/GlobalStyles';
-import Layout from './components/Layout/Layout'
-import WineList from './components/Products/WineList';
+import React from "react";
+import Navbar from "./components/NavBar/Navbar";
+import HeroSlider from "./components/HeroSlider/HeroSlider";
+import Footer from "./components/Footer/Footer";
+import Layout from "./components/Layout/Layout";
+// import WineList from './components/Products/WineList';
+import GlobalStyle from "./styles/GlobalStyles";
 
 function App() {
   return (
     <>
-      <GlobalStyles />
+      <GlobalStyle />
       <Navbar />
-      <Layout>
-          <Hero />
-          <WineList />
-      </Layout>
+      <HeroSlider />
+      <Layout>{/* <WineList /> */}</Layout>
       <Footer />
     </>
   );
